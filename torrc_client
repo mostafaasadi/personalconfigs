@@ -1,0 +1,6 @@
+UseBridges 1
+bridge obfs4 IP:PORTXXXXXXXXXXXXXXXXX
+cert=XXXXXXXXXXXXXXXXX 
+iat-mode=0
+ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
+

@@ -1,0 +1,7 @@
+SocksPort 0 
+ORPort auto
+BridgeRelay 1
+Exitpolicy reject *:*
+ExtORPort auto
+
+ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy managed
